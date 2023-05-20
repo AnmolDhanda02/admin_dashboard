@@ -4,8 +4,6 @@ const closebtn = document.getElementById("closebtn");
 const lightmode = document.getElementById("lightmode");
 const darkmode = document.getElementById("darkmode");
 
-// hamburger menu code
-
 openbtn.addEventListener("click", function showsidebar() {
   sidebar.style.display = "block";
   openbtn.style.display = "none";
@@ -19,8 +17,6 @@ closebtn.addEventListener("click", function hidesidebar() {
   closebtn.style.display = "none";
   openbtn.classList.remove("activeopenmenu");
 });
-
-// themes changes
 
 darkmode.addEventListener("click",function myfunction(){
 document.body.classList.add("dark-theme-variables");

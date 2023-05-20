@@ -37,22 +37,6 @@
   appearance: none;
   box-sizing: border-box; }
 
-/* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 16px; }
-
-*::-webkit-scrollbar-track {
-  background: #bdd1ff; }
-
-*::-webkit-scrollbar-thumb {
-  background: #bdd1ff;
-  border-radius: 10px;
-  border: 1px solid crimson; }
-
-*::-webkit-scrollbar-button {
-  background: #bdd1ff;
-  border: 1px solid crimson; }
-
 html {
   font-size: 14px; }
 

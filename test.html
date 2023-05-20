@@ -31,26 +31,29 @@
     border-radius: 10px;
     border: 1px solid #c9d8ff;
   } */
+  :root {
+    --scrollbarcolor: #bdd1ff;
+  }
       /* ===== Scrollbar CSS ===== */
       /* Firefox */
       * {
         scrollbar-width: auto;
-        scrollbar-color: #bdd1ff #fbfbf9;
+        scrollbar-color: var(--scrollbarcolor) crimson;
       }
       /* Chrome, Edge, and Safari */
       *::-webkit-scrollbar {
         width: 16px;
       }
       *::-webkit-scrollbar-track {
-        background: #bdd1ff;
+        background: var(--scrollbarcolor);
       }
       *::-webkit-scrollbar-thumb {
-        background: #bdd1ff;
+        background: var(--scrollbarcolor);
         border-radius: 10px;
         border: 1px solid crimson;
       }
       *::-webkit-scrollbar-button {
-        background: #bdd1ff;
+        background: var(--scrollbarcolor);
         border: 1px solid crimson;
       }
     </style>

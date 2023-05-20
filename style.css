@@ -27,15 +27,6 @@
   --color-light: rgba(0, 0, 0, 0.4);
   --box-shadow: 0 0 1rem var(--color-dark); }
 
-::-webkit-scrollbar {
-  width: 1rem; }
-
-::-webkit-scrollbar-track {
-  background-color: var(--color-danger); }
-
-::-webkit-scrollbar-thumb {
-  background: var(--active-tab-color); }
-
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +36,22 @@
   text-decoration: none;
   appearance: none;
   box-sizing: border-box; }
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px; }
+
+*::-webkit-scrollbar-track {
+  background: #bdd1ff; }
+
+*::-webkit-scrollbar-thumb {
+  background: #bdd1ff;
+  border-radius: 10px;
+  border: 1px solid crimson; }
+
+*::-webkit-scrollbar-button {
+  background: #bdd1ff;
+  border: 1px solid crimson; }
 
 html {
   font-size: 14px; }

@@ -9,7 +9,7 @@ openbtn.addEventListener("click", function showsidebar() {
   openbtn.style.display = "none";
   closebtn.style.display = "block";
   openbtn.classList.add("activeopenmenu");
-}); 
+});
 
 closebtn.addEventListener("click", function hidesidebar() {
   sidebar.style.display = "none";
@@ -18,14 +18,14 @@ closebtn.addEventListener("click", function hidesidebar() {
   openbtn.classList.remove("activeopenmenu");
 });
 
-darkmode.addEventListener("click",function myfunction(){
-document.body.classList.add("dark-theme-variables");
-darkmode.classList.add("current-theme");
-lightmode.classList.remove("current-theme");
-})  
+darkmode.addEventListener("click", function myfunction() {
+  document.body.classList.add("dark-theme-variables");
+  darkmode.classList.add("current-theme");
+  lightmode.classList.remove("current-theme");
+});
 
-lightmode.addEventListener("click", function myfunction(){
+lightmode.addEventListener("click", function myfunction() {
   document.body.classList.remove("dark-theme-variables");
-lightmode.classList.add("current-theme");
-darkmode.classList.remove("current-theme");
-})
+  lightmode.classList.add("current-theme");
+  darkmode.classList.remove("current-theme");
+});

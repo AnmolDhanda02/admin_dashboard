@@ -543,7 +543,7 @@ main .recent-orders a {
 
 @media only screen and (min-width: 1201px) and (max-width: 2560px) {
   .theme-toggler {
-    position: fixed;
+    position: absolute;
     right: 280px;
     top: 18px;
   }
@@ -601,7 +601,7 @@ main .recent-orders a {
   }
   .theme-toggler {
     position: fixed;
-    right: 381px;
+    right: 227px;
     top: 18px;
   }
 }
